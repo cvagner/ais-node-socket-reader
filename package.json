@@ -1,0 +1,27 @@
+{
+  "name": "ais-node-socket-reader",
+  "version": "1.0.0",
+  "keywords": [
+    "ais",
+    "socket",
+    "node"
+  ],
+  "description": "Lit les messages AIS IEC format IEC 62320-1 sur une socket TCP/IP.",
+  "author": "Charles-Henry Vagner",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cvagner/ais-node-socket-reader.git"
+  },
+  "main": "main.js",
+  "scripts": {
+    "start": "node .",
+    "parsing-test": "node test/parsing.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ais-stream-decoder": "^2.1.2",
+    "split": "^1.0.1",
+    "yargs": "^17.7.2"
+  }
+}
